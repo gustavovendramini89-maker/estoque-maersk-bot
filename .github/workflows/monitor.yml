@@ -1,0 +1,55 @@
+name: Monitor de estoque Maersk
+
+on:
+  schedule:
+    # a cada 15 minutos - checagem de mudancas de estoque
+    - cron: "*/15 * * * *"
+    # 08:00 horario de Brasilia (11:00 UTC) - resumo diario
+    - cron: "0 11 * * *"
+  workflow_dispatch: {}  # permite rodar manualmente pelo GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependências
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Rodar checagem de estoque (a cada 15 min)
+        if: github.event.schedule == '*/15 * * * *' || github.event_name == 'workflow_dispatch'
+        env:
+          MAERSK_EMAIL: ${{ secrets.MAERSK_EMAIL }}
+          MAERSK_PASSWORD: ${{ secrets.MAERSK_PASSWORD }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scraper.py
+
+      - name: Rodar resumo diário
+        if: github.event.schedule == '0 11 * * *'
+        env:
+          MAERSK_EMAIL: ${{ secrets.MAERSK_EMAIL }}
+          MAERSK_PASSWORD: ${{ secrets.MAERSK_PASSWORD }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scraper.py --summary
+
+      - name: Salvar snapshot atualizado no repositório
+        run: |
+          git config user.name "estoque-maersk-bot"
+          git config user.email "actions@github.com"
+          git add state/snapshot.json
+          git diff --quiet --cached || git commit -m "Atualiza snapshot de estoque [skip ci]"
+          git push
