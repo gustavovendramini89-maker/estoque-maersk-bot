@@ -79,9 +79,21 @@ def login_and_scrape() -> dict:
         # --- login ---
         page.goto(SIGNIN_URL, wait_until="networkidle")
 
-        # aceitar cookies, se o banner aparecer
+        # aceitar cookies, se o banner aparecer (texto pode variar por idioma)
+        for label in ["Essential only", "Accept all", "Aceitar", "Aceitar todos", "Somente essenciais"]:
+            try:
+                page.get_by_text(label, exact=False).click(timeout=2000)
+                break
+            except Exception:
+                continue
+
+        # garantia extra: remove qualquer overlay de cookie que ainda esteja
+        # bloqueando cliques na página, mesmo que o botão acima não tenha sido encontrado
         try:
-            page.get_by_text("Essential only", exact=False).click(timeout=4000)
+            page.evaluate(
+                "document.querySelectorAll('[id*=\"coi\" i], [class*=\"cookie\" i]')"
+                ".forEach(el => el.remove())"
+            )
         except Exception:
             pass
 
