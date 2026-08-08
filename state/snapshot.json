@@ -1,83 +1,11 @@
 {
-  "40' Dry High | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
-    "type": "40' Dry High",
+  "20' Dry Standard | DAMAGE | VBR LOGISTICA LTDA | RIO GRANDE, BRAZIL": {
+    "type": "20' Dry Standard",
     "condition": "DAMAGE",
-    "site": "MAERSK DEPOT RIO GRANDE",
+    "site": "VBR LOGISTICA LTDA",
     "place": "RIO GRANDE, BRAZIL",
     "price": "",
-    "quantity": 200
-  },
-  "40' Dry Standard | DAMAGE | MERCOTAINER | RIO GRANDE, BRAZIL": {
-    "type": "40' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "MERCOTAINER",
-    "place": "RIO GRANDE, BRAZIL",
-    "price": "",
-    "quantity": 28
-  },
-  "20' Dry Standard | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "TRANSPORTE E COMERCIO FASSINA LTDA",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 156
-  },
-  "20' Dry Standard | AS IS | TRANSTEC WORLD SANTOS | SANTOS, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "AS IS",
-    "site": "TRANSTEC WORLD SANTOS",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 1
-  },
-  "40' Dry Standard | AS IS | MAERSK CARGO SERVICE ITAPOA | ITAPOA, BRAZIL": {
-    "type": "40' Dry Standard",
-    "condition": "AS IS",
-    "site": "MAERSK CARGO SERVICE ITAPOA",
-    "place": "ITAPOA, BRAZIL",
-    "price": "",
-    "quantity": 1
-  },
-  "20' Dry Standard | DAMAGE | MAERSK DEPOT PARANAGUA | PARANAGUA, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "MAERSK DEPOT PARANAGUA",
-    "place": "PARANAGUA, BRAZIL",
-    "price": "",
-    "quantity": 29
-  },
-  "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "DEPOTCE",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 124
-  },
-  "20' Dry Standard | AS IS | LECHMAN ITAJAI | ITAJAI, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "AS IS",
-    "site": "LECHMAN ITAJAI",
-    "place": "ITAJAI, BRAZIL",
-    "price": "",
-    "quantity": 5
-  },
-  "40' Dry Standard | AS IS | MAERSK DEPOT PARANAGUA | PARANAGUA, BRAZIL": {
-    "type": "40' Dry Standard",
-    "condition": "AS IS",
-    "site": "MAERSK DEPOT PARANAGUA",
-    "place": "PARANAGUA, BRAZIL",
-    "price": "",
-    "quantity": 5
-  },
-  "20' Dry Standard | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "MAERSK DEPOT RIO GRANDE",
-    "place": "RIO GRANDE, BRAZIL",
-    "price": "",
-    "quantity": 5
+    "quantity": 255
   },
   "40' Dry Standard | DAMAGE | LECHMAN ITAJAI | ITAJAI, BRAZIL": {
     "type": "40' Dry Standard",
@@ -87,13 +15,29 @@
     "price": "",
     "quantity": 7
   },
-  "40' Dry Standard | AS IS | WILPORT LTDA PATIO A | SALVADOR, BRAZIL": {
+  "20' Dry Standard | DAMAGE | MAERSK DEPOT PARANAGUA | PARANAGUA, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "MAERSK DEPOT PARANAGUA",
+    "place": "PARANAGUA, BRAZIL",
+    "price": "",
+    "quantity": 29
+  },
+  "40' Dry Standard | AS IS | MAERSK DEPOT PARANAGUA | PARANAGUA, BRAZIL": {
     "type": "40' Dry Standard",
     "condition": "AS IS",
-    "site": "WILPORT LTDA PATIO A",
-    "place": "SALVADOR, BRAZIL",
+    "site": "MAERSK DEPOT PARANAGUA",
+    "place": "PARANAGUA, BRAZIL",
     "price": "",
-    "quantity": 8
+    "quantity": 5
+  },
+  "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "DEPOTCE",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 124
   },
   "40' Dry Standard | DAMAGE | MAERSK CARGO SERVICE ITAPOA | ITAPOA, BRAZIL": {
     "type": "40' Dry Standard",
@@ -103,21 +47,29 @@
     "price": "",
     "quantity": 39
   },
-  "20' Dry Standard | RECYCLE | TOMIASI TRANSPORTE LTDA | MANAUS, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "RECYCLE",
-    "site": "TOMIASI TRANSPORTE LTDA",
-    "place": "MANAUS, BRAZIL",
+  "40' Dry Standard | AS IS | WILPORT LTDA PATIO A | SALVADOR, BRAZIL": {
+    "type": "40' Dry Standard",
+    "condition": "AS IS",
+    "site": "WILPORT LTDA PATIO A",
+    "place": "SALVADOR, BRAZIL",
     "price": "",
-    "quantity": 1
+    "quantity": 8
   },
-  "20' Dry Standard | RECYCLE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "RECYCLE",
+  "40' Dry High | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "DAMAGE",
+    "site": "MAERSK DEPOT RIO GRANDE",
+    "place": "RIO GRANDE, BRAZIL",
+    "price": "",
+    "quantity": 200
+  },
+  "40' Dry High | DAMAGE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "DAMAGE",
     "site": "TS2 TRANSPORTES E SERVICOS LTDA",
     "place": "RIO GRANDE, BRAZIL",
     "price": "",
-    "quantity": 1
+    "quantity": 10
   },
   "40' Dry Standard | DAMAGE | MAERSK DEPOT PARANAGUA | PARANAGUA, BRAZIL": {
     "type": "40' Dry Standard",
@@ -127,19 +79,35 @@
     "price": "",
     "quantity": 57
   },
-  "20' Dry Standard | DAMAGE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
+  "20' Dry Standard | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
-    "site": "TS2 TRANSPORTES E SERVICOS LTDA",
-    "place": "RIO GRANDE, BRAZIL",
+    "site": "TRANSPORTE E COMERCIO FASSINA LTDA",
+    "place": "SANTOS, BRAZIL",
     "price": "",
-    "quantity": 282
+    "quantity": 156
   },
-  "40' Dry Standard | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
+  "40' Dry Standard | AS IS | LECHMAN ITAJAI | ITAJAI, BRAZIL": {
     "type": "40' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "MAERSK DEPOT RIO GRANDE",
-    "place": "RIO GRANDE, BRAZIL",
+    "condition": "AS IS",
+    "site": "LECHMAN ITAJAI",
+    "place": "ITAJAI, BRAZIL",
+    "price": "",
+    "quantity": 5
+  },
+  "40' Dry Standard | AS IS | TOMIASI TRANSPORTE LTDA | MANAUS, BRAZIL": {
+    "type": "40' Dry Standard",
+    "condition": "AS IS",
+    "site": "TOMIASI TRANSPORTE LTDA",
+    "place": "MANAUS, BRAZIL",
+    "price": "",
+    "quantity": 11
+  },
+  "20' Dry Standard | RECYCLE | ZIRANLOG LOGISTICA LTDA | RIO DE JANEIRO, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "RECYCLE",
+    "site": "ZIRANLOG LOGISTICA LTDA",
+    "place": "RIO DE JANEIRO, BRAZIL",
     "price": "",
     "quantity": 4
   },
@@ -151,12 +119,44 @@
     "price": "",
     "quantity": 16
   },
-  "20' Dry Standard | DAMAGE | VBR LOGISTICA LTDA | RIO GRANDE, BRAZIL": {
-    "type": "20' Dry Standard",
+  "40' Dry Standard | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
+    "type": "40' Dry Standard",
     "condition": "DAMAGE",
-    "site": "VBR LOGISTICA LTDA",
+    "site": "MAERSK DEPOT RIO GRANDE",
     "place": "RIO GRANDE, BRAZIL",
     "price": "",
-    "quantity": 255
+    "quantity": 4
+  },
+  "20' Dry Standard | RECYCLE | TOMIASI TRANSPORTE LTDA | MANAUS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "RECYCLE",
+    "site": "TOMIASI TRANSPORTE LTDA",
+    "place": "MANAUS, BRAZIL",
+    "price": "",
+    "quantity": 1
+  },
+  "20' Dry Standard | AS IS | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "AS IS",
+    "site": "TRANSPORTE E COMERCIO FASSINA LTDA",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 2
+  },
+  "40' Dry Standard | DAMAGE | DEEPLOG ITAJAI | ITAJAI, BRAZIL": {
+    "type": "40' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "DEEPLOG ITAJAI",
+    "place": "ITAJAI, BRAZIL",
+    "price": "",
+    "quantity": 1
+  },
+  "40' Dry Standard | AS IS | TRANSTEC WORLD SANTOS | SANTOS, BRAZIL": {
+    "type": "40' Dry Standard",
+    "condition": "AS IS",
+    "site": "TRANSTEC WORLD SANTOS",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 1
   }
 }
