@@ -111,51 +111,51 @@
     "price": "",
     "quantity": 1
   },
-  "20' Dry Standard | AS IS | LECHMAN ITAJAI | ITAJAI, BRAZIL": {
+  "40' Dry Standard | DAMAGE | MERCOTAINER | RIO GRANDE, BRAZIL": {
+    "type": "40' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "MERCOTAINER",
+    "place": "RIO GRANDE, BRAZIL",
+    "price": "",
+    "quantity": 28
+  },
+  "20' Dry Standard | RECYCLE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
-    "condition": "AS IS",
+    "condition": "RECYCLE",
+    "site": "TS2 TRANSPORTES E SERVICOS LTDA",
+    "place": "RIO GRANDE, BRAZIL",
+    "price": "",
+    "quantity": 1
+  },
+  "40' Dry Standard | DAMAGE | MAERSK CARGO SERVICE ITAPOA | ITAPOA, BRAZIL": {
+    "type": "40' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "MAERSK CARGO SERVICE ITAPOA",
+    "place": "ITAPOA, BRAZIL",
+    "price": "",
+    "quantity": 39
+  },
+  "40' Dry Standard | DAMAGE | LECHMAN ITAJAI | ITAJAI, BRAZIL": {
+    "type": "40' Dry Standard",
+    "condition": "DAMAGE",
     "site": "LECHMAN ITAJAI",
     "place": "ITAJAI, BRAZIL",
     "price": "",
-    "quantity": 5
+    "quantity": 7
   },
-  "40' Dry High | RECYCLE | KOMBOOGIE | SUAPE, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "RECYCLE",
-    "site": "KOMBOOGIE",
-    "place": "SUAPE, BRAZIL",
-    "price": "",
-    "quantity": 1
-  },
-  "40' Dry High | RECYCLE | WILPORT LTDA PATIO A | SALVADOR, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "RECYCLE",
-    "site": "WILPORT LTDA PATIO A",
-    "place": "SALVADOR, BRAZIL",
-    "price": "",
-    "quantity": 1
-  },
-  "20' Dry Standard | AS IS | MAERSK DEPOT PARANAGUA | PARANAGUA, BRAZIL": {
+  "20' Dry Standard | DAMAGE | VBR LOGISTICA LTDA | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
-    "condition": "AS IS",
-    "site": "MAERSK DEPOT PARANAGUA",
-    "place": "PARANAGUA, BRAZIL",
-    "price": "",
-    "quantity": 2
-  },
-  "40' Dry Standard | AS IS | WILPORT LTDA PATIO A | SALVADOR, BRAZIL": {
-    "type": "40' Dry Standard",
-    "condition": "AS IS",
-    "site": "WILPORT LTDA PATIO A",
-    "place": "SALVADOR, BRAZIL",
-    "price": "",
-    "quantity": 8
-  },
-  "40' Dry Standard | DAMAGE | TOMIASI TRANSPORTE LTDA | MANAUS, BRAZIL": {
-    "type": "40' Dry Standard",
     "condition": "DAMAGE",
-    "site": "TOMIASI TRANSPORTE LTDA",
-    "place": "MANAUS, BRAZIL",
+    "site": "VBR LOGISTICA LTDA",
+    "place": "RIO GRANDE, BRAZIL",
+    "price": "",
+    "quantity": 255
+  },
+  "20' Dry Standard | RECYCLE | ZL LOG LOGISTICA LTDA | ITAGUAI SEPETIBA, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "RECYCLE",
+    "site": "ZL LOG LOGISTICA LTDA",
+    "place": "ITAGUAI SEPETIBA, BRAZIL",
     "price": "",
     "quantity": 1
   }
