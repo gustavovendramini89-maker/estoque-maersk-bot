@@ -1,9 +1,33 @@
 {
-  "40' Dry Standard | AS IS | TRANSTEC WORLD SANTOS | SANTOS, BRAZIL": {
-    "type": "40' Dry Standard",
+  "40' Dry High | AS IS | ZIRAN ITAPOA | ITAPOA, BRAZIL": {
+    "type": "40' Dry High",
     "condition": "AS IS",
-    "site": "TRANSTEC WORLD SANTOS",
-    "place": "SANTOS, BRAZIL",
+    "site": "ZIRAN ITAPOA",
+    "place": "ITAPOA, BRAZIL",
+    "price": "",
+    "quantity": 1
+  },
+  "20' Dry Standard | DAMAGE | MAERSK DEPOT PARANAGUA | PARANAGUA, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "MAERSK DEPOT PARANAGUA",
+    "place": "PARANAGUA, BRAZIL",
+    "price": "",
+    "quantity": 51
+  },
+  "40' Dry Standard | DAMAGE | MAERSK DEPOT PARANAGUA | PARANAGUA, BRAZIL": {
+    "type": "40' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "MAERSK DEPOT PARANAGUA",
+    "place": "PARANAGUA, BRAZIL",
+    "price": "",
+    "quantity": 62
+  },
+  "20' Dry Standard | DAMAGE | LECHMAN ITAJAI | ITAJAI, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "LECHMAN ITAJAI",
+    "place": "ITAJAI, BRAZIL",
     "price": "",
     "quantity": 1
   },
@@ -15,107 +39,11 @@
     "price": "",
     "quantity": 1
   },
-  "40' Dry High | RECYCLE | ZIRANLOG LOGISTICA LTDA | RIO DE JANEIRO, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "RECYCLE",
-    "site": "ZIRANLOG LOGISTICA LTDA",
-    "place": "RIO DE JANEIRO, BRAZIL",
-    "price": "",
-    "quantity": 4
-  },
-  "40' Dry High | RECYCLE | ZIRAN SALVADOR TRANSPORTES LTDA | SALVADOR, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "RECYCLE",
-    "site": "ZIRAN SALVADOR TRANSPORTES LTDA",
-    "place": "SALVADOR, BRAZIL",
-    "price": "",
-    "quantity": 1
-  },
-  "40' Dry Standard | AS IS | LECHMAN ITAJAI | ITAJAI, BRAZIL": {
-    "type": "40' Dry Standard",
-    "condition": "AS IS",
-    "site": "LECHMAN ITAJAI",
-    "place": "ITAJAI, BRAZIL",
-    "price": "",
-    "quantity": 5
-  },
-  "40' Dry Standard | AS IS | TOMIASI TRANSPORTE LTDA | MANAUS, BRAZIL": {
-    "type": "40' Dry Standard",
-    "condition": "AS IS",
-    "site": "TOMIASI TRANSPORTE LTDA",
-    "place": "MANAUS, BRAZIL",
-    "price": "",
-    "quantity": 11
-  },
-  "20' Dry Standard | RECYCLE | ZIRANLOG LOGISTICA LTDA | RIO DE JANEIRO, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "RECYCLE",
-    "site": "ZIRANLOG LOGISTICA LTDA",
-    "place": "RIO DE JANEIRO, BRAZIL",
-    "price": "",
-    "quantity": 4
-  },
-  "20' Dry Standard | AS IS | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "AS IS",
-    "site": "TRANSPORTE E COMERCIO FASSINA LTDA",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 4
-  },
-  "20' Dry Standard | DAMAGE | ZL LOG LOGISTICA LTDA | ITAGUAI SEPETIBA, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "ZL LOG LOGISTICA LTDA",
-    "place": "ITAGUAI SEPETIBA, BRAZIL",
-    "price": "",
-    "quantity": 71
-  },
-  "20' Dry Standard | DAMAGE | VBR LOGISTICA LTDA | RIO GRANDE, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "VBR LOGISTICA LTDA",
-    "place": "RIO GRANDE, BRAZIL",
-    "price": "",
-    "quantity": 243
-  },
-  "20' Dry Standard | AS IS | LECHMAN ITAJAI | ITAJAI, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "AS IS",
-    "site": "LECHMAN ITAJAI",
-    "place": "ITAJAI, BRAZIL",
-    "price": "",
-    "quantity": 4
-  },
-  "40' Dry High | AS IS | LECHMAN ITAJAI | ITAJAI, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "AS IS",
-    "site": "LECHMAN ITAJAI",
-    "place": "ITAJAI, BRAZIL",
-    "price": "",
-    "quantity": 2
-  },
-  "40' Dry Standard | AS IS | WILPORT LTDA PATIO A | SALVADOR, BRAZIL": {
-    "type": "40' Dry Standard",
-    "condition": "AS IS",
-    "site": "WILPORT LTDA PATIO A",
-    "place": "SALVADOR, BRAZIL",
-    "price": "",
-    "quantity": 8
-  },
   "40' Dry High | DAMAGE | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
     "type": "40' Dry High",
     "condition": "DAMAGE",
     "site": "RASIO TERMINAIS CUBATAO",
     "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 2
-  },
-  "40' Dry High | AS IS | MAERSK CARGO SERVICE ITAPOA | ITAPOA, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "AS IS",
-    "site": "MAERSK CARGO SERVICE ITAPOA",
-    "place": "ITAPOA, BRAZIL",
     "price": "",
     "quantity": 2
   },
@@ -125,38 +53,110 @@
     "site": "TRANSPORTE E COMERCIO FASSINA LTDA",
     "place": "SANTOS, BRAZIL",
     "price": "",
-    "quantity": 155
+    "quantity": 157
   },
-  "20' Dry Standard | DAMAGE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
-    "type": "20' Dry Standard",
+  "40' Dry High | DAMAGE | MAERSK DEPOT PARANAGUA | PARANAGUA, BRAZIL": {
+    "type": "40' Dry High",
     "condition": "DAMAGE",
-    "site": "TS2 TRANSPORTES E SERVICOS LTDA",
-    "place": "RIO GRANDE, BRAZIL",
+    "site": "MAERSK DEPOT PARANAGUA",
+    "place": "PARANAGUA, BRAZIL",
     "price": "",
-    "quantity": 267
+    "quantity": 0
   },
-  "40' Dry Standard | DAMAGE | DEEPLOG ITAJAI | ITAJAI, BRAZIL": {
+  "40' Dry Standard | AS IS | TRANSTEC WORLD SANTOS | SANTOS, BRAZIL": {
     "type": "40' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "DEEPLOG ITAJAI",
-    "place": "ITAJAI, BRAZIL",
+    "condition": "AS IS",
+    "site": "TRANSTEC WORLD SANTOS",
+    "place": "SANTOS, BRAZIL",
     "price": "",
     "quantity": 1
   },
-  "40' Dry Standard | DAMAGE | MERCOTAINER | RIO GRANDE, BRAZIL": {
-    "type": "40' Dry Standard",
+  "40' Dry High | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
+    "type": "40' Dry High",
     "condition": "DAMAGE",
-    "site": "MERCOTAINER",
+    "site": "DEPOTCE",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 2
+  },
+  "40' Dry High | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "DAMAGE",
+    "site": "MAERSK DEPOT RIO GRANDE",
     "place": "RIO GRANDE, BRAZIL",
     "price": "",
-    "quantity": 22
+    "quantity": 199
   },
-  "40' Dry Standard | DAMAGE | LECHMAN ITAJAI | ITAJAI, BRAZIL": {
+  "40' Dry Standard | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
     "type": "40' Dry Standard",
     "condition": "DAMAGE",
-    "site": "LECHMAN ITAJAI",
+    "site": "MAERSK DEPOT RIO GRANDE",
+    "place": "RIO GRANDE, BRAZIL",
+    "price": "",
+    "quantity": 4
+  },
+  "20' Dry Standard | DAMAGE | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "RASIO TERMINAIS CUBATAO",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 1
+  },
+  "20' Dry Standard | RECYCLE | ZIRAN NORDESTE TRANSPORTE RODOVIARIO | SUAPE, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "RECYCLE",
+    "site": "ZIRAN NORDESTE TRANSPORTE RODOVIARIO",
+    "place": "SUAPE, BRAZIL",
+    "price": "",
+    "quantity": 2
+  },
+  "40' Dry Standard | DAMAGE | LECHMAN TERMINAIS LTDA NAVEGANTES | ITAJAI, BRAZIL": {
+    "type": "40' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "LECHMAN TERMINAIS LTDA NAVEGANTES",
     "place": "ITAJAI, BRAZIL",
     "price": "",
-    "quantity": 7
+    "quantity": 16
+  },
+  "20' Dry Standard | RECYCLE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "RECYCLE",
+    "site": "TS2 TRANSPORTES E SERVICOS LTDA",
+    "place": "RIO GRANDE, BRAZIL",
+    "price": "",
+    "quantity": 1
+  },
+  "20' Dry Standard | RECYCLE | ZL LOG LOGISTICA LTDA | ITAGUAI SEPETIBA, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "RECYCLE",
+    "site": "ZL LOG LOGISTICA LTDA",
+    "place": "ITAGUAI SEPETIBA, BRAZIL",
+    "price": "",
+    "quantity": 1
+  },
+  "40' Dry High | RECYCLE | WILPORT LTDA PATIO A | SALVADOR, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "RECYCLE",
+    "site": "WILPORT LTDA PATIO A",
+    "place": "SALVADOR, BRAZIL",
+    "price": "",
+    "quantity": 1
+  },
+  "20' Dry Standard | RECYCLE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "RECYCLE",
+    "site": "MAERSK DEPOT RIO GRANDE",
+    "place": "RIO GRANDE, BRAZIL",
+    "price": "",
+    "quantity": 1
+  },
+  "40' Dry High | RECYCLE | KOMBOOGIE | SUAPE, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "RECYCLE",
+    "site": "KOMBOOGIE",
+    "place": "SUAPE, BRAZIL",
+    "price": "",
+    "quantity": 1
   }
 }
