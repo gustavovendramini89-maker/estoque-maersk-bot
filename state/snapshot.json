@@ -1,12 +1,4 @@
 {
-  "20' Dry Standard | RECYCLE | MERCOTAINER | RIO GRANDE, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "RECYCLE",
-    "site": "MERCOTAINER",
-    "place": "RIO GRANDE, BRAZIL",
-    "price": "",
-    "quantity": 1
-  },
   "40' Dry Standard | AS IS | MAERSK DEPOT PARANAGUA | PARANAGUA, BRAZIL": {
     "type": "40' Dry Standard",
     "condition": "AS IS",
@@ -14,6 +6,14 @@
     "place": "PARANAGUA, BRAZIL",
     "price": "",
     "quantity": 4
+  },
+  "20' Dry Standard | RECYCLE | MERCOTAINER | RIO GRANDE, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "RECYCLE",
+    "site": "MERCOTAINER",
+    "place": "RIO GRANDE, BRAZIL",
+    "price": "",
+    "quantity": 1
   },
   "20' Dry Standard | AS IS | MAERSK CARGO SERVICE ITAPOA | ITAPOA, BRAZIL": {
     "type": "20' Dry Standard",
