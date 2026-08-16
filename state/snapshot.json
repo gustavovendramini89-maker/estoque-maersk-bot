@@ -135,6 +135,14 @@
     "price": "",
     "quantity": 1
   },
+  "20' Dry Standard | AS IS | TRANSTEC WORLD SANTOS | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "AS IS",
+    "site": "TRANSTEC WORLD SANTOS",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 1
+  },
   "20' Dry Standard | RECYCLE | ZIRAN NORDESTE TRANSPORTE RODOVIARIO | SUAPE, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "RECYCLE",
@@ -142,14 +150,6 @@
     "place": "SUAPE, BRAZIL",
     "price": "",
     "quantity": 2
-  },
-  "40' Dry High | RECYCLE | KOMBOOGIE | SUAPE, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "RECYCLE",
-    "site": "KOMBOOGIE",
-    "place": "SUAPE, BRAZIL",
-    "price": "",
-    "quantity": 1
   },
   "40' Dry High | DAMAGE | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
     "type": "40' Dry High",
