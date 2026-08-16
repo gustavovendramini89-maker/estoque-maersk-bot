@@ -151,11 +151,11 @@
     "price": "",
     "quantity": 249
   },
-  "40' Dry Standard | AS IS | TRANSTEC WORLD SANTOS | SANTOS, BRAZIL": {
-    "type": "40' Dry Standard",
-    "condition": "AS IS",
-    "site": "TRANSTEC WORLD SANTOS",
-    "place": "SANTOS, BRAZIL",
+  "20' Dry Standard | RECYCLE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "RECYCLE",
+    "site": "TS2 TRANSPORTES E SERVICOS LTDA",
+    "place": "RIO GRANDE, BRAZIL",
     "price": "",
     "quantity": 1
   }
