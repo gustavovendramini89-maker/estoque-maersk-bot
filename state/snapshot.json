@@ -53,7 +53,7 @@
     "site": "MAERSK DEPOT RIO GRANDE",
     "place": "RIO GRANDE, BRAZIL",
     "price": "",
-    "quantity": 4
+    "quantity": 0
   },
   "40' Dry Standard | DAMAGE | MERCOTAINER | RIO GRANDE, BRAZIL": {
     "type": "40' Dry Standard",
@@ -101,7 +101,7 @@
     "site": "MAERSK DEPOT RIO GRANDE",
     "place": "RIO GRANDE, BRAZIL",
     "price": "",
-    "quantity": 203
+    "quantity": 188
   },
   "20' Dry Standard | RECYCLE | ZIRANLOG LOGISTICA LTDA | RIO DE JANEIRO, BRAZIL": {
     "type": "20' Dry Standard",
