@@ -23,14 +23,6 @@
     "price": "",
     "quantity": 2
   },
-  "20' Dry Standard | AS IS | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "AS IS",
-    "site": "TRANSPORTE E COMERCIO FASSINA LTDA",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 6
-  },
   "20' Dry Standard | AS IS | TRANSTEC WORLD SANTOS | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "AS IS",
@@ -87,22 +79,6 @@
     "price": "",
     "quantity": 4
   },
-  "40' Dry High | RECYCLE | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "RECYCLE",
-    "site": "RASIO TERMINAIS CUBATAO",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 1
-  },
-  "40' Dry High | RECYCLE | KOMBOOGIE | SUAPE, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "RECYCLE",
-    "site": "KOMBOOGIE",
-    "place": "SUAPE, BRAZIL",
-    "price": "",
-    "quantity": 1
-  },
   "20' Dry Standard | RECYCLE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "RECYCLE",
@@ -119,6 +95,22 @@
     "price": "",
     "quantity": 2
   },
+  "40' Dry High | RECYCLE | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "RECYCLE",
+    "site": "RASIO TERMINAIS CUBATAO",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 1
+  },
+  "40' Dry High | RECYCLE | KOMBOOGIE | SUAPE, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "RECYCLE",
+    "site": "KOMBOOGIE",
+    "place": "SUAPE, BRAZIL",
+    "price": "",
+    "quantity": 1
+  },
   "20' Dry Standard | RECYCLE | TOMIASI TRANSPORTE LTDA | MANAUS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "RECYCLE",
@@ -127,13 +119,13 @@
     "price": "",
     "quantity": 1
   },
-  "40' Dry High | AS IS | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
+  "40' Dry High | DAMAGE | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
     "type": "40' Dry High",
-    "condition": "AS IS",
-    "site": "TRANSTEC SAO VICENTE",
+    "condition": "DAMAGE",
+    "site": "RASIO TERMINAIS CUBATAO",
     "place": "SANTOS, BRAZIL",
     "price": "",
-    "quantity": 2
+    "quantity": 4
   },
   "40' Dry High | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
     "type": "40' Dry High",
@@ -143,13 +135,21 @@
     "price": "",
     "quantity": 130
   },
-  "40' Dry High | RECYCLE | ZIRAN SALVADOR TRANSPORTES LTDA | SALVADOR, BRAZIL": {
-    "type": "40' Dry High",
+  "20' Dry Standard | RECYCLE | WILPORT LTDA PATIO A | SALVADOR, BRAZIL": {
+    "type": "20' Dry Standard",
     "condition": "RECYCLE",
-    "site": "ZIRAN SALVADOR TRANSPORTES LTDA",
+    "site": "WILPORT LTDA PATIO A",
     "place": "SALVADOR, BRAZIL",
     "price": "",
-    "quantity": 1
+    "quantity": 2
+  },
+  "40' Dry High | AS IS | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "AS IS",
+    "site": "TRANSTEC SAO VICENTE",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 2
   },
   "40' Dry Standard | AS IS | WILPORT LTDA PATIO A | SALVADOR, BRAZIL": {
     "type": "40' Dry Standard",
