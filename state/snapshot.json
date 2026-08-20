@@ -1,11 +1,11 @@
 {
-  "40' Dry Standard | AS IS | LECHMAN ITAJAI | ITAJAI, BRAZIL": {
-    "type": "40' Dry Standard",
+  "40' Dry High | AS IS | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
+    "type": "40' Dry High",
     "condition": "AS IS",
-    "site": "LECHMAN ITAJAI",
-    "place": "ITAJAI, BRAZIL",
+    "site": "TRANSTEC SAO VICENTE",
+    "place": "SANTOS, BRAZIL",
     "price": "",
-    "quantity": 5
+    "quantity": 3
   },
   "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
@@ -14,14 +14,6 @@
     "place": "SANTOS, BRAZIL",
     "price": "",
     "quantity": 126
-  },
-  "20' Dry Standard | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "MAERSK DEPOT RIO GRANDE",
-    "place": "RIO GRANDE, BRAZIL",
-    "price": "",
-    "quantity": 1
   },
   "20' Dry Standard | DAMAGE | LECHMAN ITAJAI | ITAJAI, BRAZIL": {
     "type": "20' Dry Standard",
@@ -47,6 +39,30 @@
     "price": "",
     "quantity": 3
   },
+  "40' Dry Standard | AS IS | LECHMAN ITAJAI | ITAJAI, BRAZIL": {
+    "type": "40' Dry Standard",
+    "condition": "AS IS",
+    "site": "LECHMAN ITAJAI",
+    "place": "ITAJAI, BRAZIL",
+    "price": "",
+    "quantity": 5
+  },
+  "20' Dry Standard | DAMAGE | DALASTRA MONIT CARG TRANS | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "DALASTRA MONIT CARG TRANS",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 1
+  },
+  "20' Dry Standard | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "MAERSK DEPOT RIO GRANDE",
+    "place": "RIO GRANDE, BRAZIL",
+    "price": "",
+    "quantity": 1
+  },
   "20' Dry Standard | AS IS | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "AS IS",
@@ -54,14 +70,6 @@
     "place": "SANTOS, BRAZIL",
     "price": "",
     "quantity": 6
-  },
-  "40' Dry High | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "DAMAGE",
-    "site": "DEPOTCE",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 17
   },
   "20' Dry Standard | DAMAGE | MAERSK DEPOT PARANAGUA | PARANAGUA, BRAZIL": {
     "type": "20' Dry Standard",
@@ -79,22 +87,6 @@
     "price": "",
     "quantity": 4
   },
-  "20' Dry Standard | DAMAGE | ZL LOG LOGISTICA LTDA | ITAGUAI SEPETIBA, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "ZL LOG LOGISTICA LTDA",
-    "place": "ITAGUAI SEPETIBA, BRAZIL",
-    "price": "",
-    "quantity": 64
-  },
-  "40' Dry Standard | AS IS | TRANSTEC WORLD SANTOS | SANTOS, BRAZIL": {
-    "type": "40' Dry Standard",
-    "condition": "AS IS",
-    "site": "TRANSTEC WORLD SANTOS",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 1
-  },
   "40' Dry High | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
     "type": "40' Dry High",
     "condition": "DAMAGE",
@@ -111,6 +103,14 @@
     "price": "",
     "quantity": 4
   },
+  "40' Dry Standard | DAMAGE | DEEPLOG ITAJAI | ITAJAI, BRAZIL": {
+    "type": "40' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "DEEPLOG ITAJAI",
+    "place": "ITAJAI, BRAZIL",
+    "price": "",
+    "quantity": 1
+  },
   "40' Dry Standard | AS IS | WILPORT LTDA PATIO A | SALVADOR, BRAZIL": {
     "type": "40' Dry Standard",
     "condition": "AS IS",
@@ -118,14 +118,6 @@
     "place": "SALVADOR, BRAZIL",
     "price": "",
     "quantity": 8
-  },
-  "20' Dry Standard | DAMAGE | DALASTRA MONIT CARG TRANS | SANTOS, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "DALASTRA MONIT CARG TRANS",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 1
   },
   "20' Dry Standard | DAMAGE | VBR LOGISTICA LTDA | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
@@ -135,22 +127,6 @@
     "price": "",
     "quantity": 199
   },
-  "40' Dry Standard | DAMAGE | DEEPLOG ITAJAI | ITAJAI, BRAZIL": {
-    "type": "40' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "DEEPLOG ITAJAI",
-    "place": "ITAJAI, BRAZIL",
-    "price": "",
-    "quantity": 1
-  },
-  "40' Dry High | AS IS | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "AS IS",
-    "site": "TRANSTEC SAO VICENTE",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 2
-  },
   "20' Dry Standard | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -158,5 +134,29 @@
     "place": "SANTOS, BRAZIL",
     "price": "",
     "quantity": 166
+  },
+  "40' Dry Standard | DAMAGE | MAERSK DEPOT PARANAGUA | PARANAGUA, BRAZIL": {
+    "type": "40' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "MAERSK DEPOT PARANAGUA",
+    "place": "PARANAGUA, BRAZIL",
+    "price": "",
+    "quantity": 67
+  },
+  "40' Dry Standard | DAMAGE | MAERSK CARGO SERVICE ITAPOA | ITAPOA, BRAZIL": {
+    "type": "40' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "MAERSK CARGO SERVICE ITAPOA",
+    "place": "ITAPOA, BRAZIL",
+    "price": "",
+    "quantity": 29
+  },
+  "40' Dry High | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "DAMAGE",
+    "site": "DEPOTCE",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 17
   }
 }
