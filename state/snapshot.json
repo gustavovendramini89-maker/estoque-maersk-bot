@@ -151,12 +151,12 @@
     "price": "",
     "quantity": 2
   },
-  "20' Dry Standard | RECYCLE | LECHMAN KAIROS ITAJAI | ITAJAI, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "RECYCLE",
-    "site": "LECHMAN KAIROS ITAJAI",
-    "place": "ITAJAI, BRAZIL",
+  "40' Dry High | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "DAMAGE",
+    "site": "DEPOTCE",
+    "place": "SANTOS, BRAZIL",
     "price": "",
-    "quantity": 1
+    "quantity": 17
   }
 }
