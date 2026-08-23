@@ -1,4 +1,20 @@
 {
+  "40' Dry Standard | DAMAGE | DEEPLOG ITAJAI | ITAJAI, BRAZIL": {
+    "type": "40' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "DEEPLOG ITAJAI",
+    "place": "ITAJAI, BRAZIL",
+    "price": "",
+    "quantity": 1
+  },
+  "40' Dry Standard | AS IS | TRANSTEC WORLD SANTOS | SANTOS, BRAZIL": {
+    "type": "40' Dry Standard",
+    "condition": "AS IS",
+    "site": "TRANSTEC WORLD SANTOS",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 1
+  },
   "40' Dry Standard | AS IS | MAERSK DEPOT PARANAGUA | PARANAGUA, BRAZIL": {
     "type": "40' Dry Standard",
     "condition": "AS IS",
@@ -6,6 +22,14 @@
     "place": "PARANAGUA, BRAZIL",
     "price": "",
     "quantity": 4
+  },
+  "20' Dry Standard | RECYCLE | MAERSK CARGO SERVICE ITAPOA | ITAPOA, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "RECYCLE",
+    "site": "MAERSK CARGO SERVICE ITAPOA",
+    "place": "ITAPOA, BRAZIL",
+    "price": "",
+    "quantity": 1
   },
   "40' Dry Standard | AS IS | TOMIASI TRANSPORTE LTDA | MANAUS, BRAZIL": {
     "type": "40' Dry Standard",
@@ -23,22 +47,6 @@
     "price": "",
     "quantity": 4
   },
-  "40' Dry Standard | DAMAGE | DEEPLOG ITAJAI | ITAJAI, BRAZIL": {
-    "type": "40' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "DEEPLOG ITAJAI",
-    "place": "ITAJAI, BRAZIL",
-    "price": "",
-    "quantity": 1
-  },
-  "40' Dry Standard | AS IS | TRANSTEC WORLD SANTOS | SANTOS, BRAZIL": {
-    "type": "40' Dry Standard",
-    "condition": "AS IS",
-    "site": "TRANSTEC WORLD SANTOS",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 1
-  },
   "20' Dry Standard | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -47,13 +55,13 @@
     "price": "",
     "quantity": 2
   },
-  "20' Dry Standard | RECYCLE | MAERSK CARGO SERVICE ITAPOA | ITAPOA, BRAZIL": {
+  "20' Dry Standard | DAMAGE | LECHMAN KAIROS ITAJAI | ITAJAI, BRAZIL": {
     "type": "20' Dry Standard",
-    "condition": "RECYCLE",
-    "site": "MAERSK CARGO SERVICE ITAPOA",
-    "place": "ITAPOA, BRAZIL",
+    "condition": "DAMAGE",
+    "site": "LECHMAN KAIROS ITAJAI",
+    "place": "ITAJAI, BRAZIL",
     "price": "",
-    "quantity": 1
+    "quantity": 11
   },
   "40' Dry Standard | DAMAGE | MERCOTAINER | RIO GRANDE, BRAZIL": {
     "type": "40' Dry Standard",
@@ -110,14 +118,6 @@
     "place": "ITAJAI, BRAZIL",
     "price": "",
     "quantity": 1
-  },
-  "20' Dry Standard | DAMAGE | LECHMAN KAIROS ITAJAI | ITAJAI, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "LECHMAN KAIROS ITAJAI",
-    "place": "ITAJAI, BRAZIL",
-    "price": "",
-    "quantity": 11
   },
   "20' Dry Standard | RECYCLE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
