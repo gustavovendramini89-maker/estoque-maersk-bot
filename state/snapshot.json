@@ -53,7 +53,7 @@
     "site": "MAERSK CARGO SERVICE ITAPOA",
     "place": "ITAPOA, BRAZIL",
     "price": "",
-    "quantity": 1
+    "quantity": 0
   },
   "20' Dry Standard | DAMAGE | MAERSK DEPOT PARANAGUA | PARANAGUA, BRAZIL": {
     "type": "20' Dry Standard",
@@ -61,7 +61,7 @@
     "site": "MAERSK DEPOT PARANAGUA",
     "place": "PARANAGUA, BRAZIL",
     "price": "",
-    "quantity": 13
+    "quantity": 0
   },
   "40' Dry High | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
     "type": "40' Dry High",
