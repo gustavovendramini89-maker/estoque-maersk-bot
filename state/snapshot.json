@@ -71,6 +71,14 @@
     "price": "",
     "quantity": 3
   },
+  "40' Dry High | AS IS | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "AS IS",
+    "site": "RASIO TERMINAIS CUBATAO",
+    "place": "SANTOS, BRAZIL",
+    "price": "$1,357.00",
+    "quantity": 4
+  },
   "40' Dry High | AS IS | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
     "type": "40' Dry High",
     "condition": "AS IS",
@@ -79,9 +87,9 @@
     "price": "$2,000.00",
     "quantity": 4
   },
-  "40' Dry High | AS IS | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
+  "40' Dry High | DAMAGE | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
     "type": "40' Dry High",
-    "condition": "AS IS",
+    "condition": "DAMAGE",
     "site": "RASIO TERMINAIS CUBATAO",
     "place": "SANTOS, BRAZIL",
     "price": "$1,357.00",
@@ -94,13 +102,5 @@
     "place": "SANTOS, BRAZIL",
     "price": "$1,357.00",
     "quantity": 35
-  },
-  "40' Dry High | DAMAGE | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "DAMAGE",
-    "site": "RASIO TERMINAIS CUBATAO",
-    "place": "SANTOS, BRAZIL",
-    "price": "$1,357.00",
-    "quantity": 4
   }
 }
