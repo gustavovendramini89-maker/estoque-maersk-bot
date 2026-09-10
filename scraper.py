@@ -41,8 +41,8 @@ STATE_FILE = Path(__file__).parent / "state" / "snapshot.json"
 IS_SUMMARY_RUN = "--summary" in sys.argv
 
 
-def build_products_url() -> str:
-    types_param = quote(",".join(CONTAINER_TYPES))
+def build_products_url(container_type: str) -> str:
+    types_param = quote(container_type)
     return (
         f"https://www.maerskcontainersales.com/products"
         f"?countries={COUNTRY}&types={types_param}"
@@ -109,41 +109,45 @@ def login_and_scrape() -> dict:
         page.click('button:has-text("Sign in")')
         page.wait_for_load_state("networkidle")
 
-        # --- pagina de estoque, ja filtrada ---
-        page.goto(build_products_url(), wait_until="networkidle")
-        page.wait_for_selector(".item", timeout=30000)
-
-        cards = page.query_selector_all(".item")
-        for card in cards:
-            def text_of(selector):
-                el = card.query_selector(selector)
-                return el.inner_text().strip() if el else ""
-
-            container_type = text_of(".name")
-            condition = text_of(".badge")
-            site = text_of(".site")
-            place = text_of(".place")
-            price = text_of(".total")
-            stock_raw = text_of(".stock")  # formato "x10"
-
+        # --- pagina de estoque, uma vez para cada tipo ---
+        for container_type in CONTAINER_TYPES:
+            page.goto(build_products_url(container_type), wait_until="networkidle")
             try:
-                quantity = int(stock_raw.replace("x", "").strip())
-            except ValueError:
-                quantity = None
+                page.wait_for_selector(".item", timeout=15000)
+            except Exception:
+                continue  # esse tipo pode não ter itens disponíveis agora
 
-            allowed_conditions = ALLOWED_TYPE_CONDITION.get(container_type)
-            if not allowed_conditions or condition.strip().upper() not in allowed_conditions:
-                continue
+            cards = page.query_selector_all(".item")
+            for card in cards:
+                def text_of(selector):
+                    el = card.query_selector(selector)
+                    return el.inner_text().strip() if el else ""
 
-            key = f"{container_type} | {condition} | {site} | {place}"
-            items[key] = {
-                "type": container_type,
-                "condition": condition,
-                "site": site,
-                "place": place,
-                "price": price,
-                "quantity": quantity,
-            }
+                card_type = text_of(".name")
+                condition = text_of(".badge")
+                site = text_of(".site")
+                place = text_of(".place")
+                price = text_of(".total")
+                stock_raw = text_of(".stock")  # formato "x10"
+
+                try:
+                    quantity = int(stock_raw.replace("x", "").strip())
+                except ValueError:
+                    quantity = None
+
+                allowed_conditions = ALLOWED_TYPE_CONDITION.get(card_type)
+                if not allowed_conditions or condition.strip().upper() not in allowed_conditions:
+                    continue
+
+                key = f"{card_type} | {condition} | {site} | {place}"
+                items[key] = {
+                    "type": card_type,
+                    "condition": condition,
+                    "site": site,
+                    "place": place,
+                    "price": price,
+                    "quantity": quantity,
+                }
 
         browser.close()
 
