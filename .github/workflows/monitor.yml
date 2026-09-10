@@ -3,9 +3,18 @@ on:
   schedule:
     # a cada 10 minutos - checagem de mudancas de estoque
     - cron: "*/10 * * * *"
-    # 08:00 horario de Brasilia (11:00 UTC) - resumo diario
-    - cron: "0 11 * * *"
-  workflow_dispatch: {}  # permite rodar manualmente pelo GitHub
+    # 6x por dia (00h, 04h, 08h, 12h, 16h, 20h horario de Brasilia) - resumo diario
+    - cron: "0 3,7,11,15,19,23 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "O que rodar manualmente"
+        required: true
+        default: "checagem"
+        type: choice
+        options:
+          - checagem
+          - resumo
 permissions:
   contents: write
 jobs:
@@ -22,8 +31,8 @@ jobs:
         run: |
           pip install -r requirements.txt
           playwright install --with-deps chromium
-      - name: Rodar checagem de estoque (a cada 10 min)
-        if: github.event.schedule == '*/10 * * * *' || github.event_name == 'workflow_dispatch'
+      - name: Rodar checagem de estoque
+        if: github.event.schedule == '*/10 * * * *' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'checagem')
         env:
           MAERSK_EMAIL: ${{ secrets.MAERSK_EMAIL }}
           MAERSK_PASSWORD: ${{ secrets.MAERSK_PASSWORD }}
@@ -31,7 +40,7 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scraper.py
       - name: Rodar resumo diário
-        if: github.event.schedule == '0 11 * * *'
+        if: github.event.schedule == '0 3,7,11,15,19,23 * * *' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'resumo')
         env:
           MAERSK_EMAIL: ${{ secrets.MAERSK_EMAIL }}
           MAERSK_PASSWORD: ${{ secrets.MAERSK_PASSWORD }}
