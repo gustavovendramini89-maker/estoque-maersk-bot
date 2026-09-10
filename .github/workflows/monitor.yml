@@ -1,8 +1,8 @@
 name: Monitor de estoque Maersk
 on:
   schedule:
-    # a cada 10 minutos - checagem de mudancas de estoque
-    - cron: "*/10 * * * *"
+    # a cada 15 minutos - checagem de mudancas de estoque
+    - cron: "*/15 * * * *"
     # 6x por dia (00h, 04h, 08h, 12h, 16h, 20h horario de Brasilia) - resumo diario
     - cron: "0 3,7,11,15,19,23 * * *"
   workflow_dispatch:
@@ -32,7 +32,7 @@ jobs:
           pip install -r requirements.txt
           playwright install --with-deps chromium
       - name: Rodar checagem de estoque
-        if: github.event.schedule == '*/10 * * * *' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'checagem')
+        if: github.event.schedule == '*/15 * * * *' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'checagem')
         env:
           MAERSK_EMAIL: ${{ secrets.MAERSK_EMAIL }}
           MAERSK_PASSWORD: ${{ secrets.MAERSK_PASSWORD }}
