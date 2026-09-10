@@ -20,12 +20,18 @@ from playwright.sync_api import sync_playwright
 MAERSK_EMAIL = os.environ["MAERSK_EMAIL"]
 MAERSK_PASSWORD = os.environ["MAERSK_PASSWORD"]
 TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
-TELEGRAM_CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
+TELEGRAM_CHAT_IDS = [c.strip() for c in os.environ["TELEGRAM_CHAT_ID"].split(",") if c.strip()]
 
 SIGNIN_URL = "https://www.maerskcontainersales.com/signin"
 
 # Tipos de container monitorados (nomes exatamente como aparecem no filtro do site)
-CONTAINER_TYPES = ["20' Dry Standard", "40' Dry High", "40' Dry Standard"]
+CONTAINER_TYPES = ["20' Dry Standard", "40' Dry High"]
+
+# Combinações tipo + condição que queremos de fato (filtro fino, pós-scraping)
+ALLOWED_TYPE_CONDITION = {
+    "20' Dry Standard": {"DAMAGE"},
+    "40' Dry High": {"AS IS", "DAMAGE"},
+}
 
 # Regiao monitorada
 COUNTRY = "BR"
@@ -49,18 +55,19 @@ def build_products_url() -> str:
 
 def send_telegram(text: str) -> None:
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-    resp = requests.post(
-        url,
-        json={
-            "chat_id": TELEGRAM_CHAT_ID,
-            "text": text,
-            "parse_mode": "HTML",
-            "disable_web_page_preview": True,
-        },
-        timeout=30,
-    )
-    if not resp.ok:
-        print(f"[AVISO] Falha ao enviar mensagem no Telegram: {resp.status_code} {resp.text}")
+    for chat_id in TELEGRAM_CHAT_IDS:
+        resp = requests.post(
+            url,
+            json={
+                "chat_id": chat_id,
+                "text": text,
+                "parse_mode": "HTML",
+                "disable_web_page_preview": True,
+            },
+            timeout=30,
+        )
+        if not resp.ok:
+            print(f"[AVISO] Falha ao enviar mensagem no Telegram para {chat_id}: {resp.status_code} {resp.text}")
 
 
 # ---------------------------------------------------------------------------
@@ -123,6 +130,10 @@ def login_and_scrape() -> dict:
                 quantity = int(stock_raw.replace("x", "").strip())
             except ValueError:
                 quantity = None
+
+            allowed_conditions = ALLOWED_TYPE_CONDITION.get(container_type)
+            if not allowed_conditions or condition.strip().upper() not in allowed_conditions:
+                continue
 
             key = f"{container_type} | {condition} | {site} | {place}"
             items[key] = {
