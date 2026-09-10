@@ -170,6 +170,8 @@ def save_snapshot(items: dict) -> None:
 
 
 def compare_and_alert(previous: dict, current: dict) -> None:
+    """Alerta apenas ENTRADAS de estoque: itens novos ou aumento de quantidade.
+    Saídas, reduções e esgotamentos não geram mensagem."""
     alerts = []
 
     for key, curr in current.items():
@@ -188,43 +190,18 @@ def compare_and_alert(previous: dict, current: dict) -> None:
         prev_qty = prev.get("quantity")
         curr_qty = curr.get("quantity")
 
-        if prev_qty is None or curr_qty is None or prev_qty == curr_qty:
+        if prev_qty is None or curr_qty is None or curr_qty <= prev_qty:
             continue
 
-        if curr_qty == 0:
-            alerts.append(
-                f"❌ <b>Estoque esgotado</b>\n"
-                f"{curr['type']} ({curr['condition']})\n"
-                f"📍 {curr['site']} - {curr['place']}\n"
-                f"Tinha {prev_qty} unidade(s), zerou."
-            )
-        elif curr_qty > prev_qty:
-            alerts.append(
-                f"📈 <b>Chegada de unidades</b>\n"
-                f"{curr['type']} ({curr['condition']})\n"
-                f"📍 {curr['site']} - {curr['place']}\n"
-                f"{prev_qty} → {curr_qty} unidades"
-            )
-        else:
-            alerts.append(
-                f"📉 <b>Redução de estoque</b>\n"
-                f"{curr['type']} ({curr['condition']})\n"
-                f"📍 {curr['site']} - {curr['place']}\n"
-                f"{prev_qty} → {curr_qty} unidades"
-            )
-
-    # itens que sumiram completamente da listagem (tambem conta como esgotado)
-    for key, prev in previous.items():
-        if key not in current and prev.get("quantity", 0) > 0:
-            alerts.append(
-                f"❌ <b>Estoque esgotado (saiu da listagem)</b>\n"
-                f"{prev['type']} ({prev['condition']})\n"
-                f"📍 {prev['site']} - {prev['place']}\n"
-                f"Tinha {prev['quantity']} unidade(s)."
-            )
+        alerts.append(
+            f"📈 <b>Chegada de unidades</b>\n"
+            f"{curr['type']} ({curr['condition']})\n"
+            f"📍 {curr['site']} - {curr['place']}\n"
+            f"{prev_qty} → {curr_qty} unidades"
+        )
 
     if not alerts:
-        print("Nenhuma mudança detectada.")
+        print("Nenhuma entrada nova detectada.")
         return
 
     # Telegram tem limite de tamanho por mensagem; agrupamos em blocos
