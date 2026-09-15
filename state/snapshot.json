@@ -31,14 +31,6 @@
     "price": "",
     "quantity": 134
   },
-  "20' Dry Standard | DAMAGE | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "RASIO TERMINAIS CUBATAO",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 5
-  },
   "20' Dry Standard | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -46,6 +38,14 @@
     "place": "RIO GRANDE, BRAZIL",
     "price": "",
     "quantity": 3
+  },
+  "20' Dry Standard | DAMAGE | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "RASIO TERMINAIS CUBATAO",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 5
   },
   "20' Dry Standard | DAMAGE | MAERSK CARGO SERVICE ITAPOA | ITAPOA, BRAZIL": {
     "type": "20' Dry Standard",
@@ -63,13 +63,21 @@
     "price": "",
     "quantity": 227
   },
-  "40' Dry High | AS IS | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "AS IS",
-    "site": "RASIO TERMINAIS CUBATAO",
-    "place": "SANTOS, BRAZIL",
-    "price": "$1,357.00",
-    "quantity": 2
+  "20' Dry Standard | DAMAGE | ALS TRANSPORTES | ITAJAI, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "ALS TRANSPORTES",
+    "place": "ITAJAI, BRAZIL",
+    "price": "",
+    "quantity": 4
+  },
+  "20' Dry Standard | DAMAGE | ZL LOG LOGISTICA LTDA | ITAGUAI SEPETIBA, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "ZL LOG LOGISTICA LTDA",
+    "place": "ITAGUAI SEPETIBA, BRAZIL",
+    "price": "",
+    "quantity": 42
   },
   "40' Dry High | AS IS | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
     "type": "40' Dry High",
@@ -78,6 +86,14 @@
     "place": "SANTOS, BRAZIL",
     "price": "$2,000.00",
     "quantity": 5
+  },
+  "40' Dry High | AS IS | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "AS IS",
+    "site": "RASIO TERMINAIS CUBATAO",
+    "place": "SANTOS, BRAZIL",
+    "price": "$1,357.00",
+    "quantity": 2
   },
   "40' Dry High | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
     "type": "40' Dry High",
