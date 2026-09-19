@@ -7,14 +7,6 @@
     "price": "",
     "quantity": 18
   },
-  "20' Dry Standard | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "MAERSK DEPOT RIO GRANDE",
-    "place": "RIO GRANDE, BRAZIL",
-    "price": "",
-    "quantity": 3
-  },
   "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -86,6 +78,14 @@
     "place": "SANTOS, BRAZIL",
     "price": "",
     "quantity": 2
+  },
+  "20' Dry Standard | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "TRANSPORTE E COMERCIO FASSINA LTDA",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 245
   },
   "40' Dry High | AS IS | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
     "type": "40' Dry High",
