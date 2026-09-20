@@ -1,12 +1,4 @@
 {
-  "20' Dry Standard | DAMAGE | MAERSK CARGO SERVICE ITAPOA | ITAPOA, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "MAERSK CARGO SERVICE ITAPOA",
-    "place": "ITAPOA, BRAZIL",
-    "price": "",
-    "quantity": 9
-  },
   "20' Dry Standard | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -14,6 +6,14 @@
     "place": "SANTOS, BRAZIL",
     "price": "",
     "quantity": 245
+  },
+  "20' Dry Standard | DAMAGE | MAERSK CARGO SERVICE ITAPOA | ITAPOA, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "MAERSK CARGO SERVICE ITAPOA",
+    "place": "ITAPOA, BRAZIL",
+    "price": "",
+    "quantity": 9
   },
   "20' Dry Standard | DAMAGE | ALS TRANSPORTES | ITAJAI, BRAZIL": {
     "type": "20' Dry Standard",
@@ -71,6 +71,30 @@
     "price": "",
     "quantity": 172
   },
+  "20' Dry Standard | DAMAGE | ZL LOG LOGISTICA LTDA | ITAGUAI SEPETIBA, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "ZL LOG LOGISTICA LTDA",
+    "place": "ITAGUAI SEPETIBA, BRAZIL",
+    "price": "",
+    "quantity": 42
+  },
+  "20' Dry Standard | DAMAGE | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "RASIO TERMINAIS CUBATAO",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 5
+  },
+  "20' Dry Standard | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "MAERSK DEPOT RIO GRANDE",
+    "place": "RIO GRANDE, BRAZIL",
+    "price": "",
+    "quantity": 3
+  },
   "40' Dry High | AS IS | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
     "type": "40' Dry High",
     "condition": "AS IS",
@@ -94,6 +118,14 @@
     "place": "SANTOS, BRAZIL",
     "price": "$1,357.00",
     "quantity": 4
+  },
+  "40' Dry High | DAMAGE | MAERSK DEPOT PARANAGUA | PARANAGUA, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "DAMAGE",
+    "site": "MAERSK DEPOT PARANAGUA",
+    "place": "PARANAGUA, BRAZIL",
+    "price": "$1,143.00",
+    "quantity": 0
   },
   "40' Dry High | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
     "type": "40' Dry High",
