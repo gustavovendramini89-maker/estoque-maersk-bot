@@ -31,14 +31,6 @@
     "price": "",
     "quantity": 143
   },
-  "20' Dry Standard | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "MAERSK DEPOT RIO GRANDE",
-    "place": "RIO GRANDE, BRAZIL",
-    "price": "",
-    "quantity": 3
-  },
   "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -46,14 +38,6 @@
     "place": "SANTOS, BRAZIL",
     "price": "",
     "quantity": 135
-  },
-  "20' Dry Standard | DAMAGE | DALASTRA MONIT CARG TRANS | SANTOS, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "DALASTRA MONIT CARG TRANS",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 2
   },
   "20' Dry Standard | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
@@ -79,6 +63,14 @@
     "price": "",
     "quantity": 34
   },
+  "20' Dry Standard | DAMAGE | ALS TRANSPORTES | ITAJAI, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "ALS TRANSPORTES",
+    "place": "ITAJAI, BRAZIL",
+    "price": "",
+    "quantity": 1
+  },
   "20' Dry Standard | DAMAGE | LECHMAN KAIROS ITAJAI | ITAJAI, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -87,13 +79,21 @@
     "price": "",
     "quantity": 5
   },
-  "20' Dry Standard | DAMAGE | ALS TRANSPORTES | ITAJAI, BRAZIL": {
+  "20' Dry Standard | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
-    "site": "ALS TRANSPORTES",
-    "place": "ITAJAI, BRAZIL",
+    "site": "MAERSK DEPOT RIO GRANDE",
+    "place": "RIO GRANDE, BRAZIL",
     "price": "",
-    "quantity": 1
+    "quantity": 3
+  },
+  "20' Dry Standard | DAMAGE | DALASTRA MONIT CARG TRANS | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "DALASTRA MONIT CARG TRANS",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 2
   },
   "40' Dry High | AS IS | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
     "type": "40' Dry High",
