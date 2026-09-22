@@ -7,14 +7,6 @@
     "price": "",
     "quantity": 5
   },
-  "20' Dry Standard | DAMAGE | ATLANTIS TERMINALS NAVEGANTES | ITAJAI, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "ATLANTIS TERMINALS NAVEGANTES",
-    "place": "ITAJAI, BRAZIL",
-    "price": "",
-    "quantity": 18
-  },
   "20' Dry Standard | DAMAGE | MAERSK CARGO SERVICE ITAPOA | ITAPOA, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -22,22 +14,6 @@
     "place": "ITAPOA, BRAZIL",
     "price": "",
     "quantity": 3
-  },
-  "20' Dry Standard | DAMAGE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "TS2 TRANSPORTES E SERVICOS LTDA",
-    "place": "RIO GRANDE, BRAZIL",
-    "price": "",
-    "quantity": 267
-  },
-  "20' Dry Standard | DAMAGE | VBR LOGISTICA LTDA | RIO GRANDE, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "VBR LOGISTICA LTDA",
-    "place": "RIO GRANDE, BRAZIL",
-    "price": "",
-    "quantity": 143
   },
   "20' Dry Standard | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
@@ -70,6 +46,30 @@
     "place": "ITAGUAI SEPETIBA, BRAZIL",
     "price": "",
     "quantity": 34
+  },
+  "20' Dry Standard | DAMAGE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "TS2 TRANSPORTES E SERVICOS LTDA",
+    "place": "RIO GRANDE, BRAZIL",
+    "price": "",
+    "quantity": 267
+  },
+  "20' Dry Standard | DAMAGE | ATLANTIS TERMINALS NAVEGANTES | ITAJAI, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "ATLANTIS TERMINALS NAVEGANTES",
+    "place": "ITAJAI, BRAZIL",
+    "price": "",
+    "quantity": 18
+  },
+  "20' Dry Standard | DAMAGE | VBR LOGISTICA LTDA | RIO GRANDE, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "VBR LOGISTICA LTDA",
+    "place": "RIO GRANDE, BRAZIL",
+    "price": "",
+    "quantity": 143
   },
   "20' Dry Standard | DAMAGE | ALS TRANSPORTES | ITAJAI, BRAZIL": {
     "type": "20' Dry Standard",
