@@ -53,7 +53,7 @@
     "site": "ATLANTIS TERMINALS NAVEGANTES",
     "place": "ITAJAI, BRAZIL",
     "price": "",
-    "quantity": 18
+    "quantity": 16
   },
   "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
@@ -95,14 +95,6 @@
     "price": "",
     "quantity": 2
   },
-  "40' Dry High | AS IS | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "AS IS",
-    "site": "TRANSTEC SAO VICENTE",
-    "place": "SANTOS, BRAZIL",
-    "price": "$2,000.00",
-    "quantity": 2
-  },
   "40' Dry High | AS IS | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
     "type": "40' Dry High",
     "condition": "AS IS",
@@ -134,6 +126,14 @@
     "place": "SANTOS, BRAZIL",
     "price": "$1,357.00",
     "quantity": 4
+  },
+  "40' Dry High | AS IS | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "AS IS",
+    "site": "TRANSTEC SAO VICENTE",
+    "place": "SANTOS, BRAZIL",
+    "price": "$2,000.00",
+    "quantity": 2
   },
   "40' Dry High | AS IS | UNITRADING LOGISTICA SUAPE | SUAPE, BRAZIL": {
     "type": "40' Dry High",
