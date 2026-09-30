@@ -1,12 +1,4 @@
 {
-  "20' Dry Standard | DAMAGE | TOMIASI TRANSPORTE LTDA | MANAUS, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "TOMIASI TRANSPORTE LTDA",
-    "place": "MANAUS, BRAZIL",
-    "price": "",
-    "quantity": 0
-  },
   "20' Dry Standard | DAMAGE | VBR LOGISTICA LTDA | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -39,14 +31,6 @@
     "price": "",
     "quantity": 1
   },
-  "20' Dry Standard | DAMAGE | MAERSK CARGO SERVICE ITAPOA | ITAPOA, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "MAERSK CARGO SERVICE ITAPOA",
-    "place": "ITAPOA, BRAZIL",
-    "price": "",
-    "quantity": 5
-  },
   "20' Dry Standard | DAMAGE | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -62,14 +46,6 @@
     "place": "SANTOS, BRAZIL",
     "price": "",
     "quantity": 277
-  },
-  "20' Dry Standard | DAMAGE | ABALOG NAVEGANTES | ITAJAI, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "ABALOG NAVEGANTES",
-    "place": "ITAJAI, BRAZIL",
-    "price": "",
-    "quantity": 0
   },
   "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
