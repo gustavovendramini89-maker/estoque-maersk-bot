@@ -1,20 +1,4 @@
 {
-  "20' Dry Standard | DAMAGE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "TS2 TRANSPORTES E SERVICOS LTDA",
-    "place": "RIO GRANDE, BRAZIL",
-    "price": "",
-    "quantity": 258
-  },
-  "20' Dry Standard | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "TRANSPORTE E COMERCIO FASSINA LTDA",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 278
-  },
   "20' Dry Standard | DAMAGE | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -31,6 +15,22 @@
     "price": "",
     "quantity": 8
   },
+  "20' Dry Standard | DAMAGE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "TS2 TRANSPORTES E SERVICOS LTDA",
+    "place": "RIO GRANDE, BRAZIL",
+    "price": "",
+    "quantity": 260
+  },
+  "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "DEPOTCE",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 173
+  },
   "20' Dry Standard | DAMAGE | VBR LOGISTICA LTDA | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -39,27 +39,27 @@
     "price": "",
     "quantity": 138
   },
-  "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
+  "20' Dry Standard | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
-    "site": "DEPOTCE",
+    "site": "TRANSPORTE E COMERCIO FASSINA LTDA",
     "place": "SANTOS, BRAZIL",
     "price": "",
-    "quantity": 169
-  },
-  "20' Dry Standard | DAMAGE | DALASTRA MONIT CARG TRANS | SANTOS, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "DALASTRA MONIT CARG TRANS",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 2
+    "quantity": 278
   },
   "20' Dry Standard | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
     "site": "MAERSK DEPOT RIO GRANDE",
     "place": "RIO GRANDE, BRAZIL",
+    "price": "",
+    "quantity": 2
+  },
+  "20' Dry Standard | DAMAGE | DALASTRA MONIT CARG TRANS | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "DALASTRA MONIT CARG TRANS",
+    "place": "SANTOS, BRAZIL",
     "price": "",
     "quantity": 2
   },
