@@ -1,9 +1,25 @@
 {
+  "20' Dry Standard | DAMAGE | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "RASIO TERMINAIS CUBATAO",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 5
+  },
   "20' Dry Standard | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
     "site": "MAERSK DEPOT RIO GRANDE",
     "place": "RIO GRANDE, BRAZIL",
+    "price": "",
+    "quantity": 2
+  },
+  "20' Dry Standard | DAMAGE | DALASTRA MONIT CARG TRANS | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "DALASTRA MONIT CARG TRANS",
+    "place": "SANTOS, BRAZIL",
     "price": "",
     "quantity": 2
   },
@@ -14,22 +30,6 @@
     "place": "RIO GRANDE, BRAZIL",
     "price": "",
     "quantity": 130
-  },
-  "20' Dry Standard | DAMAGE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "TS2 TRANSPORTES E SERVICOS LTDA",
-    "place": "RIO GRANDE, BRAZIL",
-    "price": "",
-    "quantity": 250
-  },
-  "20' Dry Standard | DAMAGE | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "RASIO TERMINAIS CUBATAO",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 5
   },
   "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
@@ -47,21 +47,13 @@
     "price": "",
     "quantity": 274
   },
-  "20' Dry Standard | DAMAGE | DALASTRA MONIT CARG TRANS | SANTOS, BRAZIL": {
+  "20' Dry Standard | DAMAGE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
-    "site": "DALASTRA MONIT CARG TRANS",
-    "place": "SANTOS, BRAZIL",
+    "site": "TS2 TRANSPORTES E SERVICOS LTDA",
+    "place": "RIO GRANDE, BRAZIL",
     "price": "",
-    "quantity": 2
-  },
-  "40' Dry High | AS IS | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "AS IS",
-    "site": "TRANSTEC SAO VICENTE",
-    "place": "SANTOS, BRAZIL",
-    "price": "$2,000.00",
-    "quantity": 1
+    "quantity": 250
   },
   "40' Dry High | DAMAGE | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
     "type": "40' Dry High",
@@ -70,5 +62,13 @@
     "place": "SANTOS, BRAZIL",
     "price": "$1,750.00",
     "quantity": 27
+  },
+  "40' Dry High | AS IS | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "AS IS",
+    "site": "TRANSTEC SAO VICENTE",
+    "place": "SANTOS, BRAZIL",
+    "price": "$2,000.00",
+    "quantity": 1
   }
 }
