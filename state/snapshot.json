@@ -1,4 +1,20 @@
 {
+  "20' Dry Standard | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "TRANSPORTE E COMERCIO FASSINA LTDA",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 270
+  },
+  "20' Dry Standard | DAMAGE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "TS2 TRANSPORTES E SERVICOS LTDA",
+    "place": "RIO GRANDE, BRAZIL",
+    "price": "",
+    "quantity": 250
+  },
   "20' Dry Standard | DAMAGE | VBR LOGISTICA LTDA | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -15,14 +31,6 @@
     "price": "",
     "quantity": 173
   },
-  "20' Dry Standard | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "TRANSPORTE E COMERCIO FASSINA LTDA",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 269
-  },
   "20' Dry Standard | DAMAGE | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -30,14 +38,6 @@
     "place": "SANTOS, BRAZIL",
     "price": "",
     "quantity": 5
-  },
-  "20' Dry Standard | DAMAGE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "TS2 TRANSPORTES E SERVICOS LTDA",
-    "place": "RIO GRANDE, BRAZIL",
-    "price": "",
-    "quantity": 250
   },
   "20' Dry Standard | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
