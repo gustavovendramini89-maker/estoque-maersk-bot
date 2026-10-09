@@ -1,4 +1,12 @@
 {
+  "20' Dry Standard | DAMAGE | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "RASIO TERMINAIS CUBATAO",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 5
+  },
   "20' Dry Standard | DAMAGE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -15,14 +23,6 @@
     "price": "",
     "quantity": 173
   },
-  "20' Dry Standard | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "MAERSK DEPOT RIO GRANDE",
-    "place": "RIO GRANDE, BRAZIL",
-    "price": "",
-    "quantity": 2
-  },
   "20' Dry Standard | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -31,21 +31,13 @@
     "price": "",
     "quantity": 279
   },
-  "20' Dry Standard | DAMAGE | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
+  "20' Dry Standard | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
-    "site": "RASIO TERMINAIS CUBATAO",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 5
-  },
-  "20' Dry Standard | DAMAGE | VBR LOGISTICA LTDA | RIO GRANDE, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "VBR LOGISTICA LTDA",
+    "site": "MAERSK DEPOT RIO GRANDE",
     "place": "RIO GRANDE, BRAZIL",
     "price": "",
-    "quantity": 130
+    "quantity": 2
   },
   "20' Dry Standard | DAMAGE | DALASTRA MONIT CARG TRANS | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
@@ -55,12 +47,20 @@
     "price": "",
     "quantity": 2
   },
-  "40' Dry High | DAMAGE | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
-    "type": "40' Dry High",
+  "20' Dry Standard | DAMAGE | VBR LOGISTICA LTDA | RIO GRANDE, BRAZIL": {
+    "type": "20' Dry Standard",
     "condition": "DAMAGE",
-    "site": "RASIO TERMINAIS CUBATAO",
+    "site": "VBR LOGISTICA LTDA",
+    "place": "RIO GRANDE, BRAZIL",
+    "price": "",
+    "quantity": 130
+  },
+  "40' Dry High | AS IS | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "AS IS",
+    "site": "TRANSTEC SAO VICENTE",
     "place": "SANTOS, BRAZIL",
-    "price": "$1,357.00",
+    "price": "$2,000.00",
     "quantity": 1
   },
   "40' Dry High | DAMAGE | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
@@ -71,12 +71,12 @@
     "price": "$1,750.00",
     "quantity": 27
   },
-  "40' Dry High | AS IS | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
+  "40' Dry High | DAMAGE | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
     "type": "40' Dry High",
-    "condition": "AS IS",
-    "site": "TRANSTEC SAO VICENTE",
+    "condition": "DAMAGE",
+    "site": "RASIO TERMINAIS CUBATAO",
     "place": "SANTOS, BRAZIL",
-    "price": "$2,000.00",
+    "price": "$1,357.00",
     "quantity": 1
   }
 }
