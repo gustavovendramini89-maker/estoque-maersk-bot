@@ -1,4 +1,28 @@
 {
+  "20' Dry Standard | DAMAGE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "TS2 TRANSPORTES E SERVICOS LTDA",
+    "place": "RIO GRANDE, BRAZIL",
+    "price": "",
+    "quantity": 172
+  },
+  "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "DEPOTCE",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 178
+  },
+  "20' Dry Standard | DAMAGE | VBR LOGISTICA LTDA | RIO GRANDE, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "VBR LOGISTICA LTDA",
+    "place": "RIO GRANDE, BRAZIL",
+    "price": "",
+    "quantity": 37
+  },
   "20' Dry Standard | DAMAGE | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -15,30 +39,6 @@
     "price": "",
     "quantity": 195
   },
-  "20' Dry Standard | DAMAGE | VBR LOGISTICA LTDA | RIO GRANDE, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "VBR LOGISTICA LTDA",
-    "place": "RIO GRANDE, BRAZIL",
-    "price": "",
-    "quantity": 37
-  },
-  "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "DEPOTCE",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 178
-  },
-  "20' Dry Standard | DAMAGE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "TS2 TRANSPORTES E SERVICOS LTDA",
-    "place": "RIO GRANDE, BRAZIL",
-    "price": "",
-    "quantity": 172
-  },
   "20' Dry Standard | DAMAGE | DALASTRA MONIT CARG TRANS | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -47,13 +47,21 @@
     "price": "",
     "quantity": 2
   },
-  "40' Dry High | AS IS | ABALOG NAVEGANTES | ITAJAI, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "AS IS",
-    "site": "ABALOG NAVEGANTES",
-    "place": "ITAJAI, BRAZIL",
-    "price": "$1,286.00",
-    "quantity": 2
+  "20' Dry Standard | DAMAGE | VBR LOGISTICA REUSE DEPOT | SALVADOR, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "VBR LOGISTICA REUSE DEPOT",
+    "place": "SALVADOR, BRAZIL",
+    "price": "",
+    "quantity": 1
+  },
+  "20' Dry Standard | DAMAGE | MAERSK CARGO SERVICE ITAPOA | ITAPOA, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "MAERSK CARGO SERVICE ITAPOA",
+    "place": "ITAPOA, BRAZIL",
+    "price": "",
+    "quantity": 1
   },
   "40' Dry High | DAMAGE | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
     "type": "40' Dry High",
@@ -63,29 +71,21 @@
     "price": "$1,750.00",
     "quantity": 22
   },
-  "40' Dry High | DAMAGE | ZIRAN NORDESTE TRANSPORTE RODOVIARIO | SUAPE, BRAZIL": {
+  "40' Dry High | DAMAGE | MAERSK CARGO SERVICE ITAPOA | ITAPOA, BRAZIL": {
     "type": "40' Dry High",
     "condition": "DAMAGE",
-    "site": "ZIRAN NORDESTE TRANSPORTE RODOVIARIO",
-    "place": "SUAPE, BRAZIL",
-    "price": "$1,286.00",
-    "quantity": 1
-  },
-  "40' Dry High | DAMAGE | DEEPLOGISTICA ITAPOA | ITAPOA, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "DAMAGE",
-    "site": "DEEPLOGISTICA ITAPOA",
+    "site": "MAERSK CARGO SERVICE ITAPOA",
     "place": "ITAPOA, BRAZIL",
     "price": "$1,143.00",
     "quantity": 1
   },
-  "40' Dry High | DAMAGE | MERCOTAINER | RIO GRANDE, BRAZIL": {
+  "40' Dry High | DAMAGE | ABALOG NAVEGANTES | ITAJAI, BRAZIL": {
     "type": "40' Dry High",
     "condition": "DAMAGE",
-    "site": "MERCOTAINER",
-    "place": "RIO GRANDE, BRAZIL",
-    "price": "$1,000.00",
-    "quantity": 1
+    "site": "ABALOG NAVEGANTES",
+    "place": "ITAJAI, BRAZIL",
+    "price": "$1,214.00",
+    "quantity": 2
   },
   "40' Dry High | DAMAGE | DALASTRA MONIT CARG TRANS | SANTOS, BRAZIL": {
     "type": "40' Dry High",
@@ -94,14 +94,6 @@
     "place": "SANTOS, BRAZIL",
     "price": "$1,357.00",
     "quantity": 2
-  },
-  "40' Dry High | AS IS | MAERSK CARGO SERVICE ITAPOA | ITAPOA, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "AS IS",
-    "site": "MAERSK CARGO SERVICE ITAPOA",
-    "place": "ITAPOA, BRAZIL",
-    "price": "$1,214.00",
-    "quantity": 1
   },
   "40' Dry High | DAMAGE | MAERSK DEPOT ITAJAI | ITAJAI, BRAZIL": {
     "type": "40' Dry High",
