@@ -1,12 +1,4 @@
 {
-  "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "DEPOTCE",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 187
-  },
   "20' Dry Standard | DAMAGE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -15,14 +7,6 @@
     "price": "",
     "quantity": 175
   },
-  "20' Dry Standard | DAMAGE | MAERSK CARGO SERVICE ITAPOA | ITAPOA, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "MAERSK CARGO SERVICE ITAPOA",
-    "place": "ITAPOA, BRAZIL",
-    "price": "",
-    "quantity": 5
-  },
   "20' Dry Standard | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -30,6 +14,14 @@
     "place": "SANTOS, BRAZIL",
     "price": "",
     "quantity": 201
+  },
+  "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "DEPOTCE",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 187
   },
   "20' Dry Standard | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
@@ -55,12 +47,12 @@
     "price": "",
     "quantity": 2
   },
-  "20' Dry Standard | DAMAGE | MERCOTAINER | RIO GRANDE, BRAZIL": {
-    "type": "20' Dry Standard",
+  "40' Dry High | DAMAGE | SUAPE TERMINAL | SUAPE, BRAZIL": {
+    "type": "40' Dry High",
     "condition": "DAMAGE",
-    "site": "MERCOTAINER",
-    "place": "RIO GRANDE, BRAZIL",
-    "price": "",
+    "site": "SUAPE TERMINAL",
+    "place": "SUAPE, BRAZIL",
+    "price": "$9,999.00",
     "quantity": 2
   },
   "40' Dry High | DAMAGE | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
@@ -78,13 +70,5 @@
     "place": "SANTOS, BRAZIL",
     "price": "$2,000.00",
     "quantity": 1
-  },
-  "40' Dry High | DAMAGE | SUAPE TERMINAL | SUAPE, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "DAMAGE",
-    "site": "SUAPE TERMINAL",
-    "place": "SUAPE, BRAZIL",
-    "price": "$9,999.00",
-    "quantity": 2
   }
 }
