@@ -7,14 +7,6 @@
     "price": "",
     "quantity": 188
   },
-  "20' Dry Standard | DAMAGE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "TS2 TRANSPORTES E SERVICOS LTDA",
-    "place": "RIO GRANDE, BRAZIL",
-    "price": "",
-    "quantity": 175
-  },
   "20' Dry Standard | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -22,6 +14,14 @@
     "place": "SANTOS, BRAZIL",
     "price": "",
     "quantity": 204
+  },
+  "20' Dry Standard | DAMAGE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "TS2 TRANSPORTES E SERVICOS LTDA",
+    "place": "RIO GRANDE, BRAZIL",
+    "price": "",
+    "quantity": 175
   },
   "20' Dry Standard | DAMAGE | RASIO TERMINAIS CUBATAO | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
@@ -47,14 +47,6 @@
     "price": "",
     "quantity": 2
   },
-  "40' Dry High | DAMAGE | SUAPE TERMINAL | SUAPE, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "DAMAGE",
-    "site": "SUAPE TERMINAL",
-    "place": "SUAPE, BRAZIL",
-    "price": "$9,999.00",
-    "quantity": 2
-  },
   "40' Dry High | DAMAGE | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
     "type": "40' Dry High",
     "condition": "DAMAGE",
@@ -63,14 +55,6 @@
     "price": "$1,750.00",
     "quantity": 22
   },
-  "40' Dry High | DAMAGE | ZIRAN NORDESTE TRANSPORTE RODOVIARIO | SUAPE, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "DAMAGE",
-    "site": "ZIRAN NORDESTE TRANSPORTE RODOVIARIO",
-    "place": "SUAPE, BRAZIL",
-    "price": "$1,286.00",
-    "quantity": 3
-  },
   "40' Dry High | AS IS | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
     "type": "40' Dry High",
     "condition": "AS IS",
@@ -78,5 +62,13 @@
     "place": "SANTOS, BRAZIL",
     "price": "$2,000.00",
     "quantity": 1
+  },
+  "40' Dry High | DAMAGE | SUAPE TERMINAL | SUAPE, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "DAMAGE",
+    "site": "SUAPE TERMINAL",
+    "place": "SUAPE, BRAZIL",
+    "price": "$9,999.00",
+    "quantity": 2
   }
 }
