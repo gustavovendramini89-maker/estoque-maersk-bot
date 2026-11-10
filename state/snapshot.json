@@ -1,12 +1,4 @@
 {
-  "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "DEPOTCE",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 188
-  },
   "20' Dry Standard | DAMAGE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -15,18 +7,26 @@
     "price": "",
     "quantity": 176
   },
+  "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "DEPOTCE",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 196
+  },
   "20' Dry Standard | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
     "site": "TRANSPORTE E COMERCIO FASSINA LTDA",
     "place": "SANTOS, BRAZIL",
     "price": "",
-    "quantity": 206
+    "quantity": 209
   },
-  "20' Dry Standard | DAMAGE | MAERSK DEPOT RIO GRANDE | RIO GRANDE, BRAZIL": {
+  "20' Dry Standard | DAMAGE | VBR LOGISTICA LTDA | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
-    "site": "MAERSK DEPOT RIO GRANDE",
+    "site": "VBR LOGISTICA LTDA",
     "place": "RIO GRANDE, BRAZIL",
     "price": "",
     "quantity": 1
@@ -38,14 +38,6 @@
     "place": "SANTOS, BRAZIL",
     "price": "",
     "quantity": 2
-  },
-  "40' Dry High | AS IS | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "AS IS",
-    "site": "TRANSTEC SAO VICENTE",
-    "place": "SANTOS, BRAZIL",
-    "price": "$2,000.00",
-    "quantity": 1
   },
   "40' Dry High | DAMAGE | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
     "type": "40' Dry High",
@@ -61,6 +53,14 @@
     "site": "SUAPE TERMINAL",
     "place": "SUAPE, BRAZIL",
     "price": "$9,999.00",
-    "quantity": 2
+    "quantity": 1
+  },
+  "40' Dry High | AS IS | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "AS IS",
+    "site": "TRANSTEC SAO VICENTE",
+    "place": "SANTOS, BRAZIL",
+    "price": "$2,000.00",
+    "quantity": 1
   }
 }
