@@ -1,27 +1,11 @@
 {
-  "20' Dry Standard | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "TRANSPORTE E COMERCIO FASSINA LTDA",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 207
-  },
   "20' Dry Standard | DAMAGE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
     "site": "TS2 TRANSPORTES E SERVICOS LTDA",
     "place": "RIO GRANDE, BRAZIL",
     "price": "",
-    "quantity": 175
-  },
-  "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "DEPOTCE",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 196
+    "quantity": 165
   },
   "20' Dry Standard | DAMAGE | DALASTRA MONIT CARG TRANS | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
@@ -30,6 +14,22 @@
     "place": "SANTOS, BRAZIL",
     "price": "",
     "quantity": 2
+  },
+  "20' Dry Standard | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "TRANSPORTE E COMERCIO FASSINA LTDA",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 208
+  },
+  "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "DEPOTCE",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 196
   },
   "40' Dry High | DAMAGE | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
     "type": "40' Dry High",
