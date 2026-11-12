@@ -5,7 +5,7 @@
     "site": "TS2 TRANSPORTES E SERVICOS LTDA",
     "place": "RIO GRANDE, BRAZIL",
     "price": "",
-    "quantity": 165
+    "quantity": 163
   },
   "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
@@ -15,14 +15,6 @@
     "price": "",
     "quantity": 196
   },
-  "20' Dry Standard | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "TRANSPORTE E COMERCIO FASSINA LTDA",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 209
-  },
   "20' Dry Standard | DAMAGE | DALASTRA MONIT CARG TRANS | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -31,13 +23,21 @@
     "price": "",
     "quantity": 2
   },
+  "20' Dry Standard | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "TRANSPORTE E COMERCIO FASSINA LTDA",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 209
+  },
   "40' Dry High | DAMAGE | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
     "type": "40' Dry High",
     "condition": "DAMAGE",
     "site": "TRANSTEC SAO VICENTE",
     "place": "SANTOS, BRAZIL",
     "price": "$1,750.00",
-    "quantity": 22
+    "quantity": 21
   },
   "40' Dry High | AS IS | SUAPE TERMINAL | SUAPE, BRAZIL": {
     "type": "40' Dry High",
