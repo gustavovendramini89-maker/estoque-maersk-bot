@@ -39,14 +39,6 @@
     "price": "$1,750.00",
     "quantity": 21
   },
-  "40' Dry High | DAMAGE | SUAPE TERMINAL | SUAPE, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "DAMAGE",
-    "site": "SUAPE TERMINAL",
-    "place": "SUAPE, BRAZIL",
-    "price": "$9,999.00",
-    "quantity": 1
-  },
   "40' Dry High | AS IS | SUAPE TERMINAL | SUAPE, BRAZIL": {
     "type": "40' Dry High",
     "condition": "AS IS",
@@ -62,5 +54,13 @@
     "place": "SANTOS, BRAZIL",
     "price": "$2,000.00",
     "quantity": 2
+  },
+  "40' Dry High | DAMAGE | SUAPE TERMINAL | SUAPE, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "DAMAGE",
+    "site": "SUAPE TERMINAL",
+    "place": "SUAPE, BRAZIL",
+    "price": "$9,999.00",
+    "quantity": 1
   }
 }
