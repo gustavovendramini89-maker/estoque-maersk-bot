@@ -1,4 +1,12 @@
 {
+  "20' Dry Standard | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "TRANSPORTE E COMERCIO FASSINA LTDA",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 157
+  },
   "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -13,7 +21,7 @@
     "site": "TS2 TRANSPORTES E SERVICOS LTDA",
     "place": "RIO GRANDE, BRAZIL",
     "price": "",
-    "quantity": 103
+    "quantity": 102
   },
   "20' Dry Standard | DAMAGE | DALASTRA MONIT CARG TRANS | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
@@ -21,30 +29,6 @@
     "site": "DALASTRA MONIT CARG TRANS",
     "place": "SANTOS, BRAZIL",
     "price": "",
-    "quantity": 2
-  },
-  "20' Dry Standard | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "TRANSPORTE E COMERCIO FASSINA LTDA",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 157
-  },
-  "40' Dry High | AS IS | SUAPE TERMINAL | SUAPE, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "AS IS",
-    "site": "SUAPE TERMINAL",
-    "place": "SUAPE, BRAZIL",
-    "price": "$9,999.00",
-    "quantity": 5
-  },
-  "40' Dry High | AS IS | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "AS IS",
-    "site": "TRANSTEC SAO VICENTE",
-    "place": "SANTOS, BRAZIL",
-    "price": "$2,000.00",
     "quantity": 2
   },
   "40' Dry High | DAMAGE | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
@@ -62,5 +46,21 @@
     "place": "SUAPE, BRAZIL",
     "price": "$9,999.00",
     "quantity": 1
+  },
+  "40' Dry High | AS IS | SUAPE TERMINAL | SUAPE, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "AS IS",
+    "site": "SUAPE TERMINAL",
+    "place": "SUAPE, BRAZIL",
+    "price": "$9,999.00",
+    "quantity": 5
+  },
+  "40' Dry High | AS IS | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "AS IS",
+    "site": "TRANSTEC SAO VICENTE",
+    "place": "SANTOS, BRAZIL",
+    "price": "$2,000.00",
+    "quantity": 2
   }
 }
