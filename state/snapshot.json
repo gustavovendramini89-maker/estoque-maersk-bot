@@ -31,6 +31,14 @@
     "price": "",
     "quantity": 2
   },
+  "40' Dry High | DAMAGE | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "DAMAGE",
+    "site": "TRANSTEC SAO VICENTE",
+    "place": "SANTOS, BRAZIL",
+    "price": "$1,750.00",
+    "quantity": 21
+  },
   "40' Dry High | AS IS | SUAPE TERMINAL | SUAPE, BRAZIL": {
     "type": "40' Dry High",
     "condition": "AS IS",
@@ -47,13 +55,21 @@
     "price": "$2,000.00",
     "quantity": 2
   },
-  "40' Dry High | DAMAGE | TRANSTEC SAO VICENTE | SANTOS, BRAZIL": {
+  "40' Dry High | AS IS | MAERSK CARGO SERVICE ITAPOA | ITAPOA, BRAZIL": {
     "type": "40' Dry High",
-    "condition": "DAMAGE",
-    "site": "TRANSTEC SAO VICENTE",
+    "condition": "AS IS",
+    "site": "MAERSK CARGO SERVICE ITAPOA",
+    "place": "ITAPOA, BRAZIL",
+    "price": "$1,214.00",
+    "quantity": 1
+  },
+  "40' Dry High | AS IS | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "AS IS",
+    "site": "TRANSPORTE E COMERCIO FASSINA LTDA",
     "place": "SANTOS, BRAZIL",
-    "price": "$1,750.00",
-    "quantity": 21
+    "price": "$1,357.00",
+    "quantity": 1
   },
   "40' Dry High | DAMAGE | SUAPE TERMINAL | SUAPE, BRAZIL": {
     "type": "40' Dry High",
@@ -61,6 +77,14 @@
     "site": "SUAPE TERMINAL",
     "place": "SUAPE, BRAZIL",
     "price": "$9,999.00",
+    "quantity": 1
+  },
+  "40' Dry High | DAMAGE | MAERSK DEPOT PARANAGUA | PARANAGUA, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "DAMAGE",
+    "site": "MAERSK DEPOT PARANAGUA",
+    "place": "PARANAGUA, BRAZIL",
+    "price": "$1,143.00",
     "quantity": 1
   }
 }
