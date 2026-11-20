@@ -1,12 +1,4 @@
 {
-  "20' Dry Standard | DAMAGE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "TS2 TRANSPORTES E SERVICOS LTDA",
-    "place": "RIO GRANDE, BRAZIL",
-    "price": "",
-    "quantity": 100
-  },
   "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -14,6 +6,14 @@
     "place": "SANTOS, BRAZIL",
     "price": "",
     "quantity": 196
+  },
+  "20' Dry Standard | DAMAGE | TS2 TRANSPORTES E SERVICOS LTDA | RIO GRANDE, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "TS2 TRANSPORTES E SERVICOS LTDA",
+    "place": "RIO GRANDE, BRAZIL",
+    "price": "",
+    "quantity": 100
   },
   "20' Dry Standard | DAMAGE | TRANSPORTE E COMERCIO FASSINA LTDA | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
@@ -23,14 +23,6 @@
     "price": "",
     "quantity": 167
   },
-  "20' Dry Standard | DAMAGE | VBR LOGISTICA LTDA | RIO GRANDE, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "VBR LOGISTICA LTDA",
-    "place": "RIO GRANDE, BRAZIL",
-    "price": "",
-    "quantity": 1
-  },
   "20' Dry Standard | DAMAGE | DALASTRA MONIT CARG TRANS | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -39,20 +31,12 @@
     "price": "",
     "quantity": 2
   },
-  "40' Dry High | AS IS | SUAPE TERMINAL | SUAPE, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "AS IS",
-    "site": "SUAPE TERMINAL",
-    "place": "SUAPE, BRAZIL",
-    "price": "$9,999.00",
-    "quantity": 5
-  },
-  "40' Dry High | DAMAGE | MAERSK CARGO SERVICE ITAPOA | ITAPOA, BRAZIL": {
-    "type": "40' Dry High",
+  "20' Dry Standard | DAMAGE | VBR LOGISTICA LTDA | RIO GRANDE, BRAZIL": {
+    "type": "20' Dry Standard",
     "condition": "DAMAGE",
-    "site": "MAERSK CARGO SERVICE ITAPOA",
-    "place": "ITAPOA, BRAZIL",
-    "price": "$1,143.00",
+    "site": "VBR LOGISTICA LTDA",
+    "place": "RIO GRANDE, BRAZIL",
+    "price": "",
     "quantity": 1
   },
   "40' Dry High | DAMAGE | SUAPE TERMINAL | SUAPE, BRAZIL": {
@@ -62,5 +46,13 @@
     "place": "SUAPE, BRAZIL",
     "price": "$9,999.00",
     "quantity": 1
+  },
+  "40' Dry High | AS IS | SUAPE TERMINAL | SUAPE, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "AS IS",
+    "site": "SUAPE TERMINAL",
+    "place": "SUAPE, BRAZIL",
+    "price": "$9,999.00",
+    "quantity": 5
   }
 }
