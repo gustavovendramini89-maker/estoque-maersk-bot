@@ -1,4 +1,12 @@
 {
+  "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
+    "type": "20' Dry Standard",
+    "condition": "DAMAGE",
+    "site": "DEPOTCE",
+    "place": "SANTOS, BRAZIL",
+    "price": "",
+    "quantity": 196
+  },
   "20' Dry Standard | DAMAGE | DALASTRA MONIT CARG TRANS | SANTOS, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -23,14 +31,6 @@
     "price": "",
     "quantity": 171
   },
-  "20' Dry Standard | DAMAGE | DEPOTCE | SANTOS, BRAZIL": {
-    "type": "20' Dry Standard",
-    "condition": "DAMAGE",
-    "site": "DEPOTCE",
-    "place": "SANTOS, BRAZIL",
-    "price": "",
-    "quantity": 196
-  },
   "20' Dry Standard | DAMAGE | VBR LOGISTICA LTDA | RIO GRANDE, BRAZIL": {
     "type": "20' Dry Standard",
     "condition": "DAMAGE",
@@ -39,14 +39,6 @@
     "price": "",
     "quantity": 3
   },
-  "40' Dry High | DAMAGE | SUAPE TERMINAL | SUAPE, BRAZIL": {
-    "type": "40' Dry High",
-    "condition": "DAMAGE",
-    "site": "SUAPE TERMINAL",
-    "place": "SUAPE, BRAZIL",
-    "price": "$9,999.00",
-    "quantity": 1
-  },
   "40' Dry High | AS IS | SUAPE TERMINAL | SUAPE, BRAZIL": {
     "type": "40' Dry High",
     "condition": "AS IS",
@@ -54,5 +46,13 @@
     "place": "SUAPE, BRAZIL",
     "price": "$9,999.00",
     "quantity": 5
+  },
+  "40' Dry High | DAMAGE | SUAPE TERMINAL | SUAPE, BRAZIL": {
+    "type": "40' Dry High",
+    "condition": "DAMAGE",
+    "site": "SUAPE TERMINAL",
+    "place": "SUAPE, BRAZIL",
+    "price": "$9,999.00",
+    "quantity": 1
   }
 }
